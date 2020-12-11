@@ -1,5 +1,6 @@
 # Pomodoro
-![A Pomodoro Tomato] (Pomodoro.jpg "A Pomodoro Tomato")
+
+![A Pomodoro Tomato](Pomodoro.jpg "A Pomodoro Tomato")
 
 Pomodoro Technique
 

@@ -25,14 +25,29 @@ function timer() {
 }
 function start() {
 	setM(25);
-	setTimeout(function() {alert("productive session complete: take a short break."); setM(5);}, 25000 * 60);
+	document.getElementById("box").style.boxShadow = "0 0 10px 2px #993300 inset";
+	setTimeout(function() {
+		document.getElementById("box").style.boxShadow = "0 0 10px 2px #009900 inset";
+		alert("productive session complete: take a short break."); setM(5);
+	}, 25000 * 60);
 	for (i = 2; i < 5; i++)
 	{
-		setTimeout(function() {alert("break over: resume work."); setM(25);}, 5000 * 60 * i);
-		setTimeout(function() {alert("productive session complete: take a short break."); setM(5);}, 25000 * 60 * i);
+		setTimeout(function() {
+			document.getElementById("box").style.boxShadow = "0 0 10px 2px #993300 inset";
+			alert("break over: resume work."); setM(25);
+		}, 5000 * 60 * i);
+		setTimeout(function() {
+			document.getElementById("box").style.boxShadow = "0 0 10px 2px #009900 inset";
+			alert("productive session complete: take a short break."); setM(5);
+		}, 25000 * 60 * i);
 	}
-	setTimeout(function() {alert("4 pomodoro's done: relax for a while, you earned it!"); setM(30);}, 30000 * 60 * 5);
+	setTimeout(function() {
+		document.getElementById("box").style.boxShadow = "0 0 10px 2px #009900 inset";
+		alert("4 pomodoro's done: relax for a while, you earned it!"); setM(30);
+	}, 30000 * 60 * 5);
 	timer();
+	document.getElementById('box').style.opacity = 1.0;
+	document.getElementById("box").style.filter = "blur() brightness()";
 }
 function reset() {
 	setM(0);
@@ -43,5 +58,9 @@ function reset() {
 			window.clearTimeout(timeoutID); // will do nothing if no timeout with id is present
 			timeoutID--;
 		}
+		document.getElementById("timer").innerHTML = "";
 	}, 690);
+	document.getElementById("box").style.boxShadow = "0 0 25px 5px black inset";
+	document.getElementById('box').style.opacity = 0.9;
+	document.getElementById("box").style.filter = "blur(2px) brightness(69%)";
 }

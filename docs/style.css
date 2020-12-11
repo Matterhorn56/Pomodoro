@@ -1,9 +1,23 @@
 body {
+	font-family: 'Open Sans', sans-serif;
+}
+#box {
+	content = "";
+	outline: 20px outset black;
 	background-image: url(Pomodoro.jpg);
 	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.9;
+	filter: blur(2px) brightness(69%);
+    box-shadow: 0 0 25px 5px black inset;
+	z-index: -1;
 }
-
 .controls button {
+	position: relative;
 	float: right;
 	border: none;
 	color: white;
@@ -19,9 +33,19 @@ body {
 	padding: 15px 32px;
 	font-size: 100px;
 }
-#start {
+#start{
 	background-color: #009900; /* Dark Green */
+    box-shadow: 0 0 7px 2px #009900;
 }
-#reset {
+#start:hover {
+	background-color: #009900; /* Dark Green */
+    box-shadow: 0 0 7px 2px #993300 inset;
+}
+#reset{
 	background-color: #993300; /* Tomato Red */
+	box-shadow: 0 0 7px 2px #993300;
+}
+#reset:hover {
+	background-color: #993300; /* Tomato Red */
+	box-shadow: 0 0 7px 2px #009900 inset;
 }

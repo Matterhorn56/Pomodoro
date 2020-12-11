@@ -10,4 +10,5 @@ Pomodoro Technique
 4. Every 4 Pomodoros, take a longer break ranging from 15 to 30 minutes.
 
 Read more here: https://todoist.com/productivity-methods/pomodoro-technique
+
 Image from: https://commons.wikimedia.org/wiki/File:Pixella15107_(24030990100).jpg

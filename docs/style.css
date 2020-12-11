@@ -1,0 +1,27 @@
+body {
+	background-image: url(Pomodoro.jpg);
+	background-size: cover;
+}
+
+.controls button {
+	float: right;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	opacity: 0.9;
+	border-radius: 5px;
+}
+#timer {
+	float: left;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 100px;
+}
+#start {
+	background-color: #009900; /* Dark Green */
+}
+#reset {
+	background-color: #993300; /* Tomato Red */
+}

@@ -6,8 +6,8 @@ function display() {
 	let S = tomato[1];
 	if (M < 10)	M = "0" + M;
 	if (S < 10)	S = "0" + S;
-	document.getElementById("timer").innerHTML = M + " : " + S;
 	document.title = M + " : " + S;
+	document.getElementById("timer").innerHTML = M + " : " + S;
 }
 function timer() {
 	//document.getElementById("timer").innerHTML = tomato[0] + " : " + tomato[1];

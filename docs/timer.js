@@ -7,6 +7,7 @@ function display() {
 	if (M < 10)	M = "0" + M;
 	if (S < 10)	S = "0" + S;
 	document.getElementById("timer").innerHTML = M + " : " + S;
+	document.title = M + " : " + S;
 }
 function timer() {
 	//document.getElementById("timer").innerHTML = tomato[0] + " : " + tomato[1];
@@ -63,4 +64,5 @@ function reset() {
 	document.getElementById("box").style.boxShadow = "0 0 25px 5px black inset";
 	document.getElementById('box').style.opacity = 0.9;
 	document.getElementById("box").style.filter = "blur(2px) brightness(69%)";
+	document.title = "Pomodoro";
 }

@@ -77,9 +77,9 @@ function reset() {
 			timeoutID--;
 		}
 		document.getElementById("timer").innerHTML = "";
+		document.getElementById("box").style.boxShadow = "0 0 25px 5px black inset";
+		document.getElementById('box').style.opacity = 0.9;
+		document.getElementById("box").style.filter = "blur(2px) brightness(69%)";
+		document.title = "Pomodoro";
 	}, 690);
-	document.getElementById("box").style.boxShadow = "0 0 25px 5px black inset";
-	document.getElementById('box').style.opacity = 0.9;
-	document.getElementById("box").style.filter = "blur(2px) brightness(69%)";
-	document.title = "Pomodoro";
 }

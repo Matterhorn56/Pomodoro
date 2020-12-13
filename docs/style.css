@@ -44,6 +44,7 @@ body {
 #reset{
 	background-color: #993300; /* Tomato Red */
 	box-shadow: 0 0 7px 2px #993300;
+	display: none;
 }
 #reset:hover {
 	background-color: #993300; /* Tomato Red */

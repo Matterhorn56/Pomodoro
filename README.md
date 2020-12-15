@@ -12,3 +12,5 @@ Pomodoro Technique
 Read more here: https://todoist.com/productivity-methods/pomodoro-technique
 
 Image from: https://commons.wikimedia.org/wiki/File:Pixella15107_(24030990100).jpg
+
+Sound Effects from ZapSplat.com
